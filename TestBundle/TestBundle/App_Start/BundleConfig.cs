@@ -49,6 +49,8 @@ namespace TestBundle
               .Include(jqueryList.ToArray())
               .Include("~/Scripts/testscrip1.js"));
 
+            BundleTable.EnableOptimizations = true;
+
         }
     }
 }
